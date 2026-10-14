@@ -4,23 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Html Page</title>
+    <style>
+        body{
+            display: flex;
+            gap: 20px;
+            background-color: rgb(186, 184, 184);
+        }
+
+        table,th,td{
+            /* border-collapse: collapse; */
+            border-radius: 10px;
+            border: 1px solid rgb(4, 4, 4);
+            padding: 10px;
+            border-style:inset;
+            background: white;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="color: rgb(55, 25, 52); background-color: rgb(125, 199, 236); width: 200px; padding: 10px; border-radius: 5px;" >My First Html</h1>
-    <p title="paragraph daw ito" style="color: red;">Programmer na ako!</p>
-    <!-- <a href="https://www.youtube.com/">Go to Youtube</a> -->
-    <br>
-    <img src="https://cdn.britannica.com/34/235834-050-C5843610/two-different-breeds-of-cats-side-by-side-outdoors-in-the-garden.jpg" title="this is cat" alt="cat daw po ito" width: 200px height="150">
+    <div>
+        <h1 style="color: rgb(55, 25, 52); background-color: rgb(125, 199, 236); width: 200px; padding: 10px; border-radius: 5px;" >My First Html</h1>
+            <p title="paragraph daw ito" style="color: red;">Programmer na ako!</p>
+            <!-- <a href="https://www.youtube.com/">Go to Youtube</a> -->
+            <br>
+            <img src="https://cdn.britannica.com/34/235834-050-C5843610/two-different-breeds-of-cats-side-by-side-outdoors-in-the-garden.jpg" title="this is cat" alt="cat daw po ito" width: 200px height="150">
+        </div>
+    
     <!-- This is a comment -->
-    <p >Ako <b>bold</b> to</p>
-    <p >Ako <strong>strong</strong> to</p>
-    <p >Ako <i>italic</i> to</p>
-    <p >Ako <em>emphasize</em> to</p>
-    <p >Ako <mark>marked</mark> to</p>
-    <p >Ako <small>small</small> to</p>
-    <p >Ako <del>deleted</del> to</p>
-    <p >Ako <ins>inserted</ins> to</p>
-    <p >Ako <sub>subscript</sub> to</p>
-    <p >Ako <sup>superscript</sup> to</p>
+    <div>
+        <h1>....</h1>
+        <p >Ako <b>bold</b> to</p>
+        <p >Ako <strong>strong</strong> to</p>
+        <p >Ako <i>italic</i> to</p>
+        <p >Ako <em>emphasize</em> to</p>
+        <p >Ako <mark>marked</mark> to</p>
+        <p >Ako <small>small</small> to</p>
+        <p >Ako <del>deleted</del> to</p>
+        <p >Ako <ins>inserted</ins> to</p>
+        <p >Ako <sub>subscript</sub> to</p>
+        <p >Ako <sup>superscript</sup> to</p>
+    </div>
+    
+    <div>
+        <h1>List</h1>
+        <!-- Unordered List -->
+        <ul>
+            <li>Saging</li>
+            <li>Orange</li>
+            <li>WaterMelow</li>
+        </ul>
+        <!-- Ordered List -->
+        <ol style="list-style: upper-roman;">
+            <li>Bong Go</li>
+            <li>Robin Padilla</li>
+            <li>Bato Dela Rosa</li>
+        </ol>
+    </div>
+    
+    <div>
+        <h1>Tables</h1>
+        <!-- Tables -->
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Course</th>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>21</td>
+                <td>bsit</td>
+            </tr>
+            <tr>
+                <td>Dela</td>
+                <td>19</td>
+                <td>BSIT</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
